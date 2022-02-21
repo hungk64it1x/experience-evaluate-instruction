@@ -1,7 +1,8 @@
 # Expertise evaluation of Image processing and computer vision skill
 ### Supervisor: Dr. Pham Dinh Lam
 ## Information:
- ![273964632_348781443845835_8191665654951310656_n](https://user-images.githubusercontent.com/80585483/154882380-ee5d91df-131a-4b4f-84e2-c2c9d42985cb.jpg)
+![273964632_348781443845835_8191665654951310656_n](https://user-images.githubusercontent.com/80585483/154898566-a9bd9291-f509-4f24-a24e-f129b57136b8.jpg)
+
 
 ### Name: Pham Vu Hung
 ### School: Hanoi University of Science and Technology

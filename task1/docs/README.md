@@ -1,16 +1,27 @@
-# Read the docs:
+### Task 1: Cars color detection
+### Method:
+![image](https://user-images.githubusercontent.com/80585483/154883742-90d76221-ea9b-407d-bf5e-0c6772143c8d.png)
+#### 1. Using Mask-RCNN Resnet 50 by detectron2 to segment cars instance in image 
+#### 2. Classify color by get HSV color range with car mask.
 
-The latest documentation built from this directory is available at [detectron2.readthedocs.io](https://detectron2.readthedocs.io/).
-Documents in this directory are not meant to be read on github.
+#### How to run:
+#### Install needed packages:
+```
+cd task1
+pip install -e .
+```
+#### Run:
+```
+python webapp.py --port 5000
+```
+----------------------------------------
 
-# Build the docs:
+### References:
+- [yolov5 repo](https://github.com/ultralytics/yolov5)
 
-1. Install detectron2 according to [INSTALL.md](https://github.com/facebookresearch/detectron2/blob/master/INSTALL.md).
-2. Install additional libraries required to build docs:
-  - docutils==0.16
-  - Sphinx==3.0.0
-  - recommonmark==0.6.0
-  - sphinx_rtd_theme
-  - mock
+- [detectron2](https://github.com/facebookresearch/detectron2)
 
-3. Run `make html` from this directory.
+- [deep text recognition](https://github.com/clovaai/deep-text-recognition-benchmarkhttps://github.com/clovaai/deep-text-recognition-benchmark)
+- [wpod net](https://openaccess.thecvf.com/content_ECCV_2018/papers/Sergio_Silva_License_Plate_Detection_ECCV_2018_paper.pdf)
+---------------------------------------
+#### If you have any questions feel free to contact me 😄
