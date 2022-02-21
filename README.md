@@ -53,6 +53,7 @@ But in wpod-net it can crop very close.
 #### 2. Deep text recognize
 After that we have a crop of LP we feed it into an model of deep text recognition, in this task i use TPS-Resnet-BiLSTM-CTC to find out target characters.
 #### How to run:
+#### Download pretrained weight for wpod and CTC at: [weight](https://drive.google.com/drive/folders/1L7NEqBGzGzLa-OPpm4K_tHCaPx7v6HuR?usp=sharing) then put it into folder weights in task3
 #### Install needed packages:
 ```
 cd task3
