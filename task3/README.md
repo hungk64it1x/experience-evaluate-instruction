@@ -1,5 +1,4 @@
 
-------------------------------------------
 ### Task 3: Korea license plate detection
 ### Method:
 ![image](https://user-images.githubusercontent.com/80585483/154885918-fec1d7e9-0118-4988-bd0a-700dcd54b1d8.png)
@@ -7,6 +6,7 @@
 ##### Using wpod-net instead of yolov5 (etc) because yolov5 can not crop close license plate like:
 ![image](https://user-images.githubusercontent.com/80585483/154886159-82905baf-e75a-4cdc-9801-4e3cd890abaa.png)
 But in wpod-net it can crop very close.
+
 ![image](https://user-images.githubusercontent.com/80585483/154886701-1bf712fd-d967-473a-901b-4024eb9dbade.png)
 #### 2. Deep text recognize
 After that we have a crop of LP we feed it into an model of deep text recognition, in this task i use TPS-Resnet-BiLSTM-CTC to find out target characters.
