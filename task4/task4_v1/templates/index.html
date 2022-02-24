@@ -1,0 +1,30 @@
+<body>
+  <form method = 'POST'>
+  <div class="rangeslider"> 
+      <input type="range" min="1" max="100" value="100" class="myslider" id="sliderRange"> 
+      <p>
+          <span id="demo"></span>
+      </p> 
+      
+  </div> 
+      
+      <script> 
+          const Http = new XMLHttpRequest();
+          var rangeslider = document.getElementById("sliderRange"); 
+          var output = document.getElementById("demo"); 
+          var current;
+          output.innerHTML = 'Độ nén hình ảnh:' + String(0)            
+          rangeslider.oninput = function() {
+              current = this.value;
+              output.innerHTML = 'Độ nén hình ảnh:' + String(100 - parseInt(current))
+              Http.open('POST', '/video')
+              Http.send(current)
+
+          }
+
+      </script> 
+
+
+  </form>
+  <img src="{{ url_for('video') }}" width="50%"/>
+</body>
